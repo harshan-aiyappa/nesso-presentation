@@ -122,7 +122,7 @@ Most platforms store knowledge. NESSO BOTANICA reasons with it — and gets smar
 
 ---
 
-## SLIDE 9 — No Question Goes Unanswered
+## SLIDE 9 — Smart Feedback Loop
 
 **Headline:** Ask Anything. If It Is Not There Yet — It Will Be.
 
@@ -139,7 +139,7 @@ Every gap is a signal. Every signal makes the system smarter.
 
 ## SLIDE 10 — Where We Are Today
 
-**Headline:** Features available now. Growing Fast.
+**Headline:** Where We Are Today
 
 **Live Today:**
 Automatic document reading and structuring
@@ -163,7 +163,5 @@ Personalised Dosha programme builder
 ## FINAL SLIDE — Thank You
 
 **Headline:** Thank You
-
-**Sub:** NESSO BOTANICA — Watch Your Ayurvedic Knowledge Map Come Alive. Ask in plain English. Get answers instantly.
 
 We would love to show you what it looks like on your own documents.
