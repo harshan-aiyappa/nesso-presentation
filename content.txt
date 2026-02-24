@@ -25,8 +25,6 @@ The more data you feed it, the smarter it gets. Add a new herb, a new biomarker,
 
 ## SLIDE 3 — What We Address
 
-**Headline:** The Knowledge Exists. The Problem Is Getting To It.
-
 **1. Documents become a living graph** — Seeing connections on a graph understands better than reading text. Upload once — every herb, quality, and outcome becomes a node you can see and explore.
 
 **2. Trace the path behind every answer** — From a symptom to a biomarker to an herb — every node connected, every step visible, every link traceable from root to result.
