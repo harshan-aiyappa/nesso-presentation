@@ -61,9 +61,6 @@ magneticElements.forEach((el) => {
 interactiveElements.forEach(el => {
     el.addEventListener('mouseenter', () => {
         cursor.classList.add('active');
-        if (el.classList.contains('grid-item') || el.tagName === 'TR' || el.classList.contains('gold-box')) {
-            // Minimal react - expansion handled by .active class in CSS
-        }
     });
     el.addEventListener('mouseleave', () => {
         cursor.classList.remove('active');
