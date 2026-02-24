@@ -1,19 +1,17 @@
----
-
 ## SLIDE 1 — Cover / Title
 
-**Headline:** Nesso Botanica
+**Headline:** NESSO BOTANICA
 **Sub:** Watch Your Ayurvedic Knowledge Map Come Alive
 **Tagline:** Centuries of Ayurvedic knowledge. Answers in seconds.
 **Supporting line:** All your herbs, formulations, dosages, and outcomes are already in your documents. We just make them instantly findable.
 
 ---
 
-## SLIDE 2 — What Is Nesso Botanica?
+## SLIDE 2 — What Is NESSO BOTANICA?
 
 **Headline:** A Brain for Whatever You Feed It
 
-Nesso Botanica is an Ayurvedic intelligence platform — it takes your data, maps every connection inside it, and lets you query all of it in plain English.
+NESSO BOTANICA is an Ayurvedic intelligence platform — it takes your data, maps every connection inside it, and lets you query all of it in plain English.
 
 It is not a search tool. It does not guess. It does not pull from the internet. It works entirely from what you give it — and reasons through every answer like an expert would.
 
@@ -39,9 +37,9 @@ The more data you feed it, the smarter it gets. Add a new herb, a new biomarker,
 
 **5. Clusters you have never seen** — Herb groups with shared properties sitting in your data — ready to become your next formulation.
 
-**Nesso Botanica addresses all 5 — in one platform.**
+NESSO BOTANICA addresses all 5 — in one platform.
 
-**Closing line:** Your knowledge is vast. It just needs a map.
+Your knowledge is vast. It just needs a map.
 
 ---
 
@@ -72,10 +70,7 @@ New herb tomorrow? New biomarker next week? Just upload it. The platform maps it
 **Not just Ayurveda:**
 Feed it Allopathy or Homeopathy data and it maps that too — then shows you connections across systems. Same intelligence. Any dataset. The platform suggests the connections, but a Domain Expert reviews and approves before anything is published — keeping the knowledge base accurate and trusted.
 
-**Safety-First — Always**
-Classical dose envelopes are always enforced. Known contraindications are flagged at query time. Every answer shows its reasoning so practitioners can verify before acting.
-
-**Closing line:** The knowledge base is yours. We just make it think.
+The knowledge base is yours. NESSO just make it think.
 
 ---
 
@@ -92,7 +87,7 @@ Classical dose envelopes are always enforced. Known contraindications are flagge
 | **Key benefit** | A complete, living knowledge map — graph intelligence and ML running continuously to surface what matters | Fast, clear, reasoned answers |
 | **Feedback loop** | Reviews and resolves unanswered queries | Asks, gets notified when ready |
 
-**Closing line:** One platform. Two users. Both get exactly what they need.
+One platform. Two users. Both get exactly what they need.
 
 ---
 
@@ -125,7 +120,7 @@ Classical dose envelopes are always enforced. Known contraindications are flagge
 
 **Trace any path instantly** — find the shortest, most evidence-supported route between any two points in your knowledge map.
 
-**Closing line:** Most platforms store knowledge. Nesso reasons with it — and gets smarter with every answer.
+Most platforms store knowledge. NESSO BOTANICA reasons with it — and gets smarter with every answer.
 
 ---
 
@@ -140,13 +135,13 @@ Ask → Not found → Flagged to team → Updated → You get notified
 
 Every unanswered question makes the platform better. The knowledge base grows to reflect exactly what your team actually needs.
 
-**Closing line:** Every gap is a signal. Every signal makes the system smarter.
+Every gap is a signal. Every signal makes the system smarter.
 
 ---
 
 ## SLIDE 10 — Where We Are Today
 
-**Headline:** Live Now. Growing Fast.
+**Headline:** Features avaiable now . Growing Fast.
 
 **Live Today:**
 Automatic document reading and structuring
@@ -154,7 +149,7 @@ Automatic document reading and structuring
 Plain-English Q&A on your documents
 Dosage envelope recommendations
 Graph intelligence — influence, community detection, gap analysis
-14+ chart types — export as PDF, CSV, or JSON
+pridiction algorithms
 Classical safety guardrails — always on
 
 **Coming Next:**
@@ -163,31 +158,14 @@ Herb-herb contraindication detection
 Evidence quality tiers — rank links by citation strength
 One-click clinical report generation
 Personalised Dosha programme builder
+14+ chart types — export as PDF, CSV, or JSON
 
 ---
 
-## SLIDE 11 — Why It Matters
-
-**Headline:** The Knowledge Was Always There. Now It Works for You.
-
-Your team has spent years building knowledge. It is in your documents, your studies, your formulations. But locked in PDFs and scattered systems, it cannot move at the speed decisions are made.
-
-Nesso changes that.
-
-Answers in seconds, not days
-Every answer shows its source and reasoning
-One intelligence layer for every team
-Grows smarter with every question asked
-Safety built in — always
-
-**Closing thought:** The best decisions are not made by the team with the most data. They are made by the team that can actually use it.
-
----
-
-## SLIDE 12 — Thank You
+## FINAL SLIDE — Thank You
 
 **Headline:** Thank You
 
-**Sub:** Nesso Botanica — Watch Your Ayurvedic Knowledge Map Come Alive. Ask in plain English. Get answers instantly.
+**Sub:** NESSO BOTANICA — Watch Your Ayurvedic Knowledge Map Come Alive. Ask in plain English. Get answers instantly.
 
-**Closing line:** We would love to show you what it looks like on your own documents.
+We would love to show you what it looks like on your own documents.
