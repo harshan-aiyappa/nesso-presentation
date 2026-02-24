@@ -209,3 +209,36 @@ document.addEventListener('keydown', (e) => {
         closeLightbox();
     }
 });
+
+// ============================================================
+// SIDE NAVIGATION LOGIC
+// ============================================================
+const navDots = document.querySelectorAll('.nav-dot');
+
+navDots.forEach(dot => {
+    dot.addEventListener('click', () => {
+        const slideId = dot.getAttribute('data-slide');
+        const target = document.getElementById(slideId);
+
+        gsap.to(window, {
+            scrollTo: target,
+            duration: 1.5,
+            ease: "power4.inOut"
+        });
+    });
+});
+
+// Update active dot on scroll
+slides.forEach((slide, i) => {
+    ScrollTrigger.create({
+        trigger: slide,
+        start: "top center",
+        end: "bottom center",
+        onToggle: self => {
+            if (self.isActive) {
+                navDots.forEach(dot => dot.classList.remove('active'));
+                navDots[i].classList.add('active');
+            }
+        }
+    });
+});
