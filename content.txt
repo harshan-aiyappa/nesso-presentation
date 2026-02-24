@@ -68,7 +68,7 @@ New herb tomorrow? New biomarker next week? Just upload it. The platform maps it
 **Not just Ayurveda:**
 Feed it Allopathy or Homeopathy data and it maps that too — then shows you connections across systems. Same intelligence. Any dataset. The platform suggests the connections, but a Domain Expert reviews and approves before anything is published — keeping the knowledge base accurate and trusted.
 
-The knowledge base is yours. NESSO just make it think.
+The knowledge base is yours. NESSO BOTANICA just make it think.
 
 ---
 
@@ -139,7 +139,7 @@ Every gap is a signal. Every signal makes the system smarter.
 
 ## SLIDE 10 — Where We Are Today
 
-**Headline:** Features avaiable now . Growing Fast.
+**Headline:** Features available now. Growing Fast.
 
 **Live Today:**
 Automatic document reading and structuring
@@ -147,7 +147,7 @@ Automatic document reading and structuring
 Plain-English Q&A on your documents
 Dosage envelope recommendations
 Graph intelligence — influence, community detection, gap analysis
-pridiction algorithms
+Prediction algorithms
 Classical safety guardrails — always on
 
 **Coming Next:**
