@@ -1,0 +1,12 @@
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[build]
+  publish = "."
+
+[header]
+  for = "/*"
+    [header.values]
+      Cache-Control = "public, max-age=31536000"
