@@ -52,17 +52,45 @@ body {
         radial-gradient(circle at 80% 70%, rgba(249, 214, 22, 0.08) 0%, transparent 50%),
         radial-gradient(circle at 50% 50%, rgba(10, 15, 13, 1) 0%, transparent 100%);
     background-attachment: fixed;
+    transition: transform 0.2s ease-out;
+    /* For parallax */
 }
 
 .cursor-follower {
     position: fixed;
-    width: 20px;
-    height: 20px;
-    background: var(--accent-color);
+    width: 24px;
+    height: 24px;
+    border: 1.5px solid var(--accent-color);
     border-radius: 50%;
     pointer-events: none;
     z-index: 10000;
-    mix-blend-mode: difference;
+    transform: translate(-50%, -50%);
+    transition: width 0.3s, height 0.3s, border-color 0.3s, opacity 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hide custom cursor on mobile/touch devices */
+@media (hover: none) and (pointer: coarse) {
+    .cursor-follower {
+        display: none !important;
+    }
+}
+
+.cursor-follower::after {
+    content: '';
+    width: 2px;
+    height: 2px;
+    background: var(--accent-color);
+    border-radius: 50%;
+}
+
+.cursor-follower.active {
+    width: 48px;
+    height: 48px;
+    background: rgba(249, 214, 22, 0.1);
+    border-width: 1px;
 }
 
 .progress-bar-container {
@@ -91,6 +119,11 @@ body {
     background: white;
     border-radius: 8px;
     filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.3));
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.brand-logo:hover {
+    transform: scale(1.1) rotate(5deg);
 }
 
 #presentation-container {
@@ -178,11 +211,11 @@ p {
     border: 1px solid var(--glass-border);
     backdrop-filter: blur(10px);
     border-radius: 16px;
-    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1), border-color 0.3s ease, box-shadow 0.5s ease;
+    will-change: transform;
 }
 
 .grid-item:hover {
-    transform: translateY(-15px) scale(1.02);
     border-color: var(--accent-color);
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%);
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
@@ -201,12 +234,13 @@ p {
     border-radius: 12px;
     border: 1px solid var(--glass-border);
     border-top: 5px solid var(--primary-color);
-    transition: all 0.3s ease;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .step:hover {
     background: rgba(255, 255, 255, 0.05);
     border-top-color: var(--accent-color);
+    transform: translateY(-8px);
 }
 
 .gold-box {
@@ -218,6 +252,11 @@ p {
     line-height: 1.25;
     border-radius: 0 20px 20px 0;
     margin: 3rem 0;
+    transition: padding-left 0.3s ease;
+}
+
+.gold-box:hover {
+    padding-left: 4rem;
 }
 
 .footer-note {
@@ -276,6 +315,12 @@ th {
     color: var(--text-color);
     border-left: 3px solid var(--primary-color);
     padding-left: 1rem !important;
+    transition: border-color 0.3s ease, padding-left 0.3s ease;
+}
+
+tr:hover .query-text {
+    border-left-color: var(--accent-color);
+    padding-left: 1.5rem !important;
 }
 
 .result-text {
@@ -310,6 +355,12 @@ th {
     padding: 1.5rem 0;
     border-bottom: 1px solid var(--glass-border);
     font-size: 1.4rem;
+    transition: padding-left 0.3s ease, border-left 0.3s ease;
+}
+
+.intel-list li:hover {
+    padding-left: 1rem;
+    border-left: 4px solid var(--primary-color);
 }
 
 .intel-list li strong {
@@ -370,6 +421,12 @@ th {
     padding: 2rem;
     background: rgba(255, 255, 255, 0.02);
     border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.closing:hover {
+    transform: scale(1.01);
+    color: var(--accent-color);
 }
 
 @media (max-width: 1024px) {
