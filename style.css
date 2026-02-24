@@ -1,19 +1,34 @@
 :root {
     --bg-color: #071410;
-    /* Deep organic forest green — echoes logo palette */
     --primary-color: #147A44;
-    /* Nesso Pure Green */
     --accent-color: #F9D616;
-    /* Nesso Golden Drop */
     --primary-glow: rgba(20, 122, 68, 0.4);
     --accent-glow: rgba(249, 214, 22, 0.3);
     --text-color: #F8F8F0;
     --text-dim: rgba(248, 248, 240, 0.7);
     --glass-bg: rgba(255, 255, 255, 0.04);
     --glass-border: rgba(20, 122, 68, 0.15);
-    /* Tinted border */
+
+    /* Unified Typography Scale */
     --font-heading: 'Montserrat', sans-serif;
     --font-body: 'Inter', sans-serif;
+
+    --fs-h1: clamp(3.5rem, 10vw, 7rem);
+    --fs-h2: clamp(2.2rem, 5vw, 3.8rem);
+    --fs-h3: 1.75rem;
+    --fs-base: 1.1rem;
+    --fs-sub: 1.35rem;
+    /* For leading text or emphasis */
+    --fs-small: 0.95rem;
+    --fs-label: 0.8rem;
+
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-semi: 600;
+    --fw-bold: 800;
+
+    --lh-heading: 1.1;
+    --lh-body: 1.7;
 }
 
 /* Custom Scrollbar */
@@ -202,7 +217,7 @@ li {
 
 h1 {
     font-family: var(--font-heading);
-    font-size: clamp(3rem, 10vw, 7rem);
+    font-size: var(--fs-h1);
     font-weight: 900;
     text-transform: uppercase;
     line-height: 0.85;
@@ -214,21 +229,21 @@ h1 {
 
 h2 {
     font-family: var(--font-heading);
-    font-size: clamp(2rem, 6vw, 4rem);
+    font-size: var(--fs-h2);
     margin-bottom: 2rem;
-    line-height: 1;
+    line-height: 1.1;
     font-weight: 800;
 }
 
 h3 {
     font-family: var(--font-heading);
-    font-size: 1.8rem;
+    font-size: var(--fs-h3);
     color: var(--accent-color);
     margin-bottom: 1rem;
 }
 
 p {
-    font-size: clamp(1rem, 1.8vw, 1.35rem);
+    font-size: var(--fs-base);
     margin-bottom: 1.5rem;
     color: var(--text-dim);
 }
@@ -239,7 +254,7 @@ p {
 }
 
 .slide-label {
-    font-size: 0.75rem;
+    font-size: var(--fs-label);
     letter-spacing: 0.5em;
     text-transform: uppercase;
     color: var(--primary-color);
@@ -304,9 +319,8 @@ p {
 }
 
 .grid-item h3 {
-    font-size: 1.15rem;
+    font-size: 1.2rem;
     font-weight: 800;
-    /* Extra bold for structure */
     margin-bottom: 1rem;
     color: var(--accent-color);
     letter-spacing: -0.01em;
@@ -314,9 +328,8 @@ p {
 }
 
 .grid-item p {
-    font-size: 0.9rem;
-    /* Slightly smaller for density */
-    line-height: 1.7;
+    font-size: var(--fs-small);
+    line-height: 1.6;
     color: var(--text-dim);
     margin-bottom: 0;
 }
@@ -477,7 +490,7 @@ tr:hover .query-text {
 
 .result-text {
     color: var(--text-dim);
-    font-size: 1.1rem;
+    font-size: var(--fs-base);
     padding-bottom: 2.5rem !important;
 }
 
@@ -485,7 +498,7 @@ tr:hover .query-text {
     font-weight: 900;
     color: var(--accent-color);
     text-transform: uppercase;
-    font-size: 0.85rem;
+    font-size: var(--fs-label);
     letter-spacing: 0.1em;
 }
 
@@ -567,12 +580,13 @@ tr:hover .query-text {
 
 .closing {
     font-family: var(--font-heading);
-    font-size: 1.8rem;
+    font-size: var(--fs-h3);
     font-weight: 700;
     margin-top: 4rem;
-    padding: 2rem;
+    padding: 2.5rem;
     background: rgba(255, 255, 255, 0.02);
-    border-radius: 12px;
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
     transition: transform 0.3s ease;
 }
 
@@ -688,7 +702,7 @@ tr:hover .query-text {
     margin-top: 1.5rem;
     color: var(--text-color);
     font-family: var(--font-heading);
-    font-size: 1.2rem;
+    font-size: var(--fs-base);
     font-weight: 600;
     text-align: center;
     background: var(--glass-bg);
@@ -715,7 +729,7 @@ tr:hover .query-text {
 }
 
 .closing-sub {
-    font-size: 1.4rem;
+    font-size: var(--fs-sub);
     font-weight: 300;
     margin-top: 1rem;
     color: var(--accent-color);
@@ -878,20 +892,24 @@ tr:hover .query-text {
 
 /* 2. COVER & TYPOGRAPHY PILLARS */
 .tagline {
-    font-size: clamp(1rem, 2.5vw, 1.4rem);
+    font-size: var(--fs-sub);
     letter-spacing: 0.25em;
     text-transform: uppercase;
     color: var(--text-dim);
     margin-bottom: 2rem;
-    font-weight: 400;
+    font-weight: var(--fw-light);
+    /* Standardized font-weight */
 }
 
 .supporting {
     max-width: 600px;
     margin: 0 auto 3rem;
-    font-size: 1.15rem;
+    font-size: var(--fs-base);
     color: var(--text-dim);
-    line-height: 1.8;
+    line-height: var(--lh-body);
+    /* Standardized line-height */
+    font-weight: var(--fw-light);
+    /* Standardized font-weight */
 }
 
 .text-block {
@@ -917,10 +935,14 @@ tr:hover .query-text {
 }
 
 .sub {
-    font-size: 1.35rem;
+    font-size: var(--fs-sub);
     color: var(--text-dim);
     max-width: 700px;
     margin: 0 auto 2.5rem;
+    font-weight: var(--fw-light);
+    /* Standardized font-weight */
+    line-height: var(--lh-body);
+    /* Standardized line-height */
 }
 
 /* 4. STATUS GRID PILLAR (Slide 10) */
